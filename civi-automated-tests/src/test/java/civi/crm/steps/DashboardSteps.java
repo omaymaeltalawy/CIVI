@@ -3,7 +3,6 @@ package civi.crm.steps;
 import java.util.Map;
 
 import org.hibernate.validator.internal.util.privilegedactions.GetClassLoader;
-import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

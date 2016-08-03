@@ -120,8 +120,6 @@ public class DashboardPage extends PageObject{
 	private static final String nameOrEmailData = "Emoka DADAM";
 	private static final String DocumentTypeData = "Joining Document 1";
 	private static final String assigneeData = "Mr. Craig Prentice II";
-	//private static final String nameOrEmailData = "Emoka DADAM";
-	//private static final String nameOrEmailData = "Emoka DADAM";
 	
 	public Boolean verifyPageUrl() {
 		logger.info("Verify page url");
@@ -241,7 +239,6 @@ public class DashboardPage extends PageObject{
 	private boolean verifyNameOrEmailField(String nameOrEmailData) {
 		// TODO Auto-generated method stub
 		nameOrEmailField.waitUntilVisible();
-		logger.info("nameOrEmailField.getText()"+nameOrEmailField.getText());
 		return nameOrEmailField.getText().contains(nameOrEmailData);
 	}
 
