@@ -1,0 +1,30 @@
+<acceptance-test-run title="Edit document test" name="editDocumentTest" steps="8" successful="8" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="129830" timestamp="2016-08-03T15:50:33.326+02:00" session-id="8277be3e-3767-4ff5-85d1-3839e307397d">
+  <user-story id="civi.features.document.EditDocumentTest" name="Edit document test" path="civi.features.document"/>
+  <tags>
+    <tag name="Edit document test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="53070">
+    <description>Login page is opened</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="48">
+    <description>Verify page loaded</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="37230">
+    <description>Enter login credentials</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="37">
+    <description>Page is loaded</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="11826">
+    <description>Documents are displayed</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="21565">
+    <description>Edit document: &lt;span class=&apos;step-parameter&apos;&gt;{Status=awaiting approval, Assignee=Mr. Norris Cruz, Details=Needs to be Approved by manager, DocumentType=Exiting document 3, File=testFile.txt, NameOrEmail=Flower}&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="3042">
+    <description>Click save</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2887">
+    <description>Document is edited: &lt;span class=&apos;step-parameter&apos;&gt;{Status=awaiting approval, Assignee=Mr. Norris Cruz, Details=Needs to be Approved by manager, DocumentType=Exiting document 3, File=testFile.txt, NameOrEmail=Flower}&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>
